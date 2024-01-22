@@ -20,3 +20,10 @@ list1.append(7)
 new_list.append("appending this string")
 print("List after appending : ", list1)
 print("New List after append : ", new_list)
+
+#Deletion of item from list
+
+list1.remove(4)
+print(list1)
+new_list.remove("is")
+print(new_list)
