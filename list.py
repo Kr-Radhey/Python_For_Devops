@@ -21,6 +21,13 @@ new_list.append("appending this string")
 print("List after appending : ", list1)
 print("New List after append : ", new_list)
 
+#Extending list
+
+extend = [8,9,10]
+list1.extend(extend)
+                                            # list2 = list1 + extend   #We can extend with concatenation also.
+print("list after extension : ", list1)
+
 #Deletion of item from list
 
 list1.remove(4)
