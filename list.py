@@ -28,6 +28,13 @@ list1.extend(extend)
                                             # list2 = list1 + extend   #We can extend with concatenation also.
 print("list after extension : ", list1)
 
+#Insertion using Insert()
+
+list1.insert(4, "Inserted Item")
+new_list.insert(5, "Inserted Value")
+print(f"List1 after insertion : ", list1)
+print(f"New_list after insertion : {new_list}")
+
 #Deletion of item from list
 
 list1.remove(4)
